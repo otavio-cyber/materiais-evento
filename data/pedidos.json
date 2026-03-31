@@ -11,6 +11,18 @@
       },
       "pago": "Sim",
       "pagData": ""
+    },
+    {
+      "id": 2,
+      "nome": "Jeferson Guarulhos",
+      "data": "31/03/2026",
+      "tel": "",
+      "itens": {
+        "camiseta": 1,
+        "caneca": 1
+      },
+      "pago": "Não",
+      "pagData": "02/04/2026"
     }
   ]
 }
