@@ -46,6 +46,18 @@
       },
       "pago": "Sim",
       "pagData": ""
+    },
+    {
+      "id": 5,
+      "nome": "Hugo",
+      "data": "30/03/2026",
+      "tel": "",
+      "itens": {
+        "camiseta": 29,
+        "caneca": 5
+      },
+      "pago": "Não",
+      "pagData": ""
     }
   ]
 }
