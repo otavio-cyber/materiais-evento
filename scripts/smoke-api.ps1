@@ -25,7 +25,10 @@ $materiais = Test-Endpoint -Method "GET" -Url "$BaseUrl/api/materiais"
 if (-not $materiais) { throw "GET /api/materiais sem retorno" }
 
 $pedidos = Test-Endpoint -Method "GET" -Url "$BaseUrl/api/pedidos"
-if (-not $pedidos.pedidos) { throw "GET /api/pedidos sem campo pedidos" }
+if (-not ($pedidos.PSObject.Properties.Name -contains 'pedidos')) {
+  throw "GET /api/pedidos sem campo pedidos"
+}
+
 
 $companheiros = Test-Endpoint -Method "GET" -Url "$BaseUrl/api/companheiros"
 if (-not $companheiros.companheiros) { throw "GET /api/companheiros sem campo companheiros" }

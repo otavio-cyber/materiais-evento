@@ -12,9 +12,9 @@ function base64UrlEncode(input) {
 }
 
 function getEnv() {
-  const spreadsheetId = process.env.GSHEETS_SPREADSHEET_ID;
-  const clientEmail = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL;
-  const privateKeyRaw = process.env.GOOGLE_PRIVATE_KEY;
+  const spreadsheetId = (process.env.GSHEETS_SPREADSHEET_ID || '').trim();
+  const clientEmail = (process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL || '').trim();
+  const privateKeyRaw = (process.env.GOOGLE_PRIVATE_KEY || '').trim();
 
   if (!spreadsheetId || !clientEmail || !privateKeyRaw) {
     throw new Error('missing_required_env');
