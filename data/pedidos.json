@@ -34,6 +34,18 @@
       },
       "pago": "Não",
       "pagData": "08/04/2026"
+    },
+    {
+      "id": 4,
+      "nome": "Turco",
+      "data": "28/03/2026",
+      "tel": "",
+      "itens": {
+        "camiseta": 10,
+        "caneca": 4
+      },
+      "pago": "Sim",
+      "pagData": ""
     }
   ]
 }
