@@ -21,8 +21,19 @@
         "camiseta": 1,
         "caneca": 1
       },
-      "pago": "Não",
+      "pago": "NÃ£o",
       "pagData": "02/04/2026"
+    },
+    {
+      "id": 3,
+      "nome": "Rafael H&I",
+      "data": "03/04/2026",
+      "tel": "",
+      "itens": {
+        "camiseta": 2
+      },
+      "pago": "Não",
+      "pagData": "08/04/2026"
     }
   ]
 }
