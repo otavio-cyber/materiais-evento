@@ -21,7 +21,7 @@
         "camiseta": 1,
         "caneca": 1
       },
-      "pago": "NÃ£o",
+      "pago": "NÃÂ£o",
       "pagData": "02/04/2026"
     },
     {
@@ -32,7 +32,7 @@
       "itens": {
         "camiseta": 2
       },
-      "pago": "Não",
+      "pago": "NÃ£o",
       "pagData": "08/04/2026"
     },
     {
@@ -56,7 +56,7 @@
         "camiseta": 29,
         "caneca": 5
       },
-      "pago": "Não",
+      "pago": "NÃ£o",
       "pagData": ""
     },
     {
@@ -67,6 +67,17 @@
       "itens": {
         "camiseta": 19,
         "caneca": 24
+      },
+      "pago": "NÃ£o",
+      "pagData": ""
+    },
+    {
+      "id": 7,
+      "nome": "Rodrigo CSA costa verde",
+      "data": "04/04/2026",
+      "tel": "",
+      "itens": {
+        "caneca": 32
       },
       "pago": "Não",
       "pagData": ""
